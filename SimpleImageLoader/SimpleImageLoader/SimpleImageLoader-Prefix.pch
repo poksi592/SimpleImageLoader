@@ -1,0 +1,23 @@
+//
+//  SimpleImageLoader-Prefix.pch
+//  SimpleImageLoader
+//
+//  Created by Mladen Despotovic on 26/11/14.
+//  Copyright (c) 2014 Mladen Despotovic. All rights reserved.
+//
+
+#ifndef SimpleImageLoader_SimpleImageLoader_Prefix_pch
+#define SimpleImageLoader_SimpleImageLoader_Prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_6_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#endif
